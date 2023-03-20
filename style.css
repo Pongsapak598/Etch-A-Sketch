@@ -1,0 +1,16 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input {
+    padding: 48px;
+}
+
+#container {
+    height: 650px;
+    width: 650px;
+    border: black solid;
+}

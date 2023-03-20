@@ -1,0 +1,17 @@
+create container div
+    size: 800x800 px
+    center horizontally and vertically
+
+create <input> (8)
+    let userInput = <input> (8)
+
+let divSize = 800/userInput (800/8 = 100) //div size will be 100
+
+document.querySelector("#container")
+    create divs equal to number if userInput
+        - loop
+        for (i = 0 ; i < userInput ; i++) {
+        const gridDiv = document.createElement("div");
+        gridDiv.style.width = `${divSize}`;
+        gridDiv.style.height = `${divSize}`;
+        };
